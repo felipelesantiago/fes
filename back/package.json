@@ -1,0 +1,43 @@
+{
+  "name": "tupatrimoniospa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel ./src -d ./dist",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17",
+    "@babel/node": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@signpdf/placeholder-plain": "^3.2.4",
+    "@signpdf/signer-p12": "^3.2.4",
+    "@signpdf/signpdf": "^3.2.4",
+    "async": "^3.2.5",
+    "axios": "^1.6.8",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "p-queue": "^8.0.1",
+    "p12-pem": "^1.0.5",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.15.0",
+    "secure-random-password": "^0.2.3"
+  }
+}
