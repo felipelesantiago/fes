@@ -1,0 +1,22 @@
+{
+  "name": "tupatrimoniospa-monorepo",
+  "version": "1.0.0",
+  "description": "Tu Patrimonio SpA - Document management and digital signature application",
+  "private": true,
+  "workspaces": [
+    "front",
+    "back"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "dev:front": "npm run dev --workspace=front",
+    "dev:back": "npm run dev --workspace=back",
+    "build:front": "npm run build --workspace=front",
+    "build:back": "npm run build --workspace=back",
+    "start:front": "npm run prod --workspace=front",
+    "start:back": "npm start --workspace=back"
+  },
+  "keywords": ["document-management", "digital-signature", "pdf"],
+  "author": "",
+  "license": "ISC"
+}
